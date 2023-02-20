@@ -1,0 +1,34 @@
+<Page> <!-- Page represents separate appliction screen -- >
+
+<!-- ActionBar represents a toolbar at the top of the activity window -->
+<ActionBar title "My App" icon ="" />
+
+<StackLayout orientation = "horizontal"> <!-- StackLayout - places components below/beside each other, depending on its orientation -->
+<Label text ="First Page"/>
+<!-- Label shows read only text -->
+<Label text ="Long ass text" textWarp ="true"/> </Label>   
+<!-- Other Attributes:
+textAlignment : "left" , "center", "right"
+textDecoration: "none" , "underline" , "line-through" -->
+<Button text = "Information" tap = "onTap" />
+
+<Label text = "AbsoluteLayout"/>
+<AbsoluteLayout>
+<Label text ="1" top = "10" left = "15" style = "width:50px background-color: #aabbee" />
+<Label text ="2" top = "25" left = "20" style = "width:25px background-color: #99efab" />
+</AbsoluteLayout>
+
+<Label text = "GridLayout"/>
+<GridLayout columns ="50,75" rows ="70,70">
+  <Label text = "0,0" row = "0" col = "0" style ="background-color: #ed5698"/>
+  <Label text = "0,1" row = "0" col = "1" style ="background-color: #34bcad"/>
+  <Label text = "0,2" row = "0" col = "2" style ="background-color: #ed5698">
+  <Label text = "1,0" row = "1" col = "0" style ="background-color: #34bcad"/>
+   <Label text = "1,1" row = "1" col = "1" colSPan = "2" style ="background-color: ##eedd33"/>
+</GridLayout>
+
+
+
+
+</StackLayout>
+</Page>

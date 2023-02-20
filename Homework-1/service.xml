@@ -1,0 +1,12 @@
+<Page> 
+<Stacklayout>
+
+<Label textWrap ="true">
+<FormattedString>
+<Span text = "Rate Category" />
+<Span text = "Rate Per Minute" style = "green"/>
+</FormattedString>
+</Label>
+
+</Stacklayout>
+</Page>

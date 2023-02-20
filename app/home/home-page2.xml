@@ -1,0 +1,15 @@
+<Page>
+  <ActionBar title = "Text Boxes & Dialongs"/>
+  <StackLayout>
+    <Label text="Enter your message below"/>
+    <TextField text = "Subject"/>
+    <TextField hint = "Subject" maxLength = "5" isEnabled = "false" />
+    <TextField hint = "Subject" maxLength = "5" editable= "false" keyboardType = "phone" />
+    <TextField hint = "Password" secure= "true" />
+
+    <TextView hint = "Enter message here" maxLines = "3"/>
+     <TextView id = "msg" hint = "Enter message here" maxLines = "3"/>
+     <Button text = "submit" tap = "onSubmit">
+
+  </StackLayout>
+</Page>

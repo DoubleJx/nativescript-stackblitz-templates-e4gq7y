@@ -1,0 +1,26 @@
+<Page>
+  <StackLayout>
+    <Label text="Academics Report" fontWeight="bold"/>
+    <Label text="Department: Computer Science" fontWeight="bold"/>
+
+  <GridLayout columns ="2" rows ="3">
+  <Label text = "Deans List (>=3.50)" row = "0" col = "0" style ="background-color: #ed5698"/>
+  <Label text = "Honor Roll (>=3.00)" row = "1" col = "0" style ="background-color: #34bcad"/>
+  <Label text = "Academic Probation:" row = "2" col = "0" style ="background-color: #ed5698">
+  <Label text = "Computer Science: 3" row = "0" col = "1" style ="background-color: #34bcad"/>
+   <Label text = "CIS: 10" row = "0" col = "1" style ="background-color: #34bcad"/>
+    <Label text = "IT: 7" row = "0" col = "1" style ="background-color: #34bcad"/>
+     <Label text = "Total: 20" row = "0" col = "1" style ="background-color: #34bcad" text-color = "green"/>
+   <Label text = "Computer Science: 5" row = "1" col = "1" style ="background-color: ##eedd33"/>
+    <Label text = "CIS: 10" row = "1" col = "1" style ="background-color: ##eedd33"/>
+     <Label text = "IT: 9" row = "1" col = "1" style ="background-color: ##eedd33"/>
+      <Label text = "Total: 26" row = "1" col = "1" style ="background-color: ##eedd33" text-color = "green"/>
+    <Label text = "Computer Science: 2" row = "2" col = "1" style ="background-color: #34bcad"/>
+    <Label text = "CIS:8" row = "2" col = "1" style ="background-color: #34bcad"/>
+    <Label text = "IT:5" row = "2" col = "1" style ="background-color: #34bcad"/>
+    <Label text = "Total: 15" row = "2" col = "1" style ="background-color: #34bcad" text-color = "green"/>
+</GridLayout>
+
+<Button text = "Done" tap = "onDone"/>
+  </StackLayout>
+</Page> 
